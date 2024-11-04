@@ -62,7 +62,7 @@ def main(page: ft.Page):
             imagen_rotada = pygame.transform.rotate(imagen, angulo)
             rect_rotado = imagen_rotada.get_rect(center=rect.center)
 
-            screen.fill((255, 255, 255))
+            screen.fill((0, 0, 0))
             screen.blit(imagen_rotada, rect_rotado.topleft)
 
             pygame.display.flip()
